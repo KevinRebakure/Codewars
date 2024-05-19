@@ -6,14 +6,12 @@
 
 function persistence(num) {
     let count = 0
-    let x = num;
+    let x = num
     while (x.toString().length > 1) {
-        (function(){
-            x = num.toString().split('').map((num)=>parseInt(num)).reduce((t,num)=>t*num, 1)
-        })()
+        x = x.toString().split('').reduce((t, v)=> v*t, 1)
         count++
     }
     return count
 }
 
-// console.log(persistence(7161456));
+// console.log(persistence(4));

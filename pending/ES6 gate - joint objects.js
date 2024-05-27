@@ -21,8 +21,8 @@ const salaries = [
   { id: 4, salary: 55000 },
 ];
 
-function jointObjects(getEmployees, getSalaries) {
+// function jointObjects(getEmployees, getSalaries) {
   
-}
+// }
 
-console.log(jointObjects(employees, salaries));
+// console.log(jointObjects(employees, salaries));

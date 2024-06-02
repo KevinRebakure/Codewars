@@ -5,5 +5,4 @@ function createPhoneNumber(numbers) {
     .slice(3, 6)
     .join("")}-${numbers.slice(6).join("")}`;
 }
-
 // console.log(createPhoneNumber(digits));

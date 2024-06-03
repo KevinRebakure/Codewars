@@ -23,25 +23,19 @@ output: {
 const longFormatData = [
   { id: 1, lastName: "Dany", age: 30 },
   { id: 2, lastName: "Josue", age: 25 },
-  { id: 3, lastName: "Noella", age: 35 }
+  { id: 3, lastName: "Noella", age: 35 },
 ];
 
 function pivotLongToWide(arr) {
-    // identifiers
-    const a = Object.keys(arr[0])[0]
-    const b = Object.keys(arr[0])[1]
-
-    const values_1 = arr.map((person)=>{
-        return person[a]
-    })
-
-    const values_2 = arr.map((person)=>{
-        return person[b]
-    })
-    return {
-        [a]: values_1,
-        [b]: values_2
-    }
+  const a = Object.keys(arr[0])[0];
+  const b = Object.keys(arr[0])[1];
+  const values_1 = arr.map((person) => {
+    return person[a];
+  });
+  const values_2 = arr.map((person) => {
+    return person[b];
+  });
+  return { [a]: values_1, [b]: values_2 };
 }
 
-console.log(pivotLongToWide(longFormatData))
+console.log(pivotLongToWide(longFormatData));

@@ -3,9 +3,13 @@
 // The quick brown fox jumps over the lazy dog
 
 function isPangram(string) {
-  // generate an array of all characters
   const text = string.toLowerCase().match(/[a-z]/g);
-  return [...new Set(text)].length == 26 ? true : false
+  //   return [...new Set(text)].length == 26 ? true : false
+  const alphabets = [];
+  for (let i = 97; i <= 122; i++) {
+    alphabets.push(String.fromCharCode(i));
+  }
+  return alphabets.every((char)=>text.includes(char))
 }
 
-console.log(isPangram("kevin"));
+// console.log(isPangram("The quick brown fox jumps over the lazy do"));

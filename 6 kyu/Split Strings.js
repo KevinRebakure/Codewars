@@ -14,9 +14,9 @@ function solution(str) {
       arr.push([text[i * 2], text[i * 2 + 1]].join(""));
     }
   }
-  return arr.filter((el)=>{
-    if (el != '') {
-      return el
+  return arr.filter((el) => {
+    if (el != "") {
+      return el;
     }
   });
 }

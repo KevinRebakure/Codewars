@@ -10,3 +10,10 @@ function solution(a, b) {
 }
 
 // console.log(solution("1", "22"));
+
+
+// Better 
+
+function solution1(a, b) {
+  return a.length < b.length ? a + b + a : b + a + b;
+}

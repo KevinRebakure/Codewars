@@ -17,40 +17,46 @@
 //  negative, as it is not possible to print a diamond of even or negative size.
 
 function diamond(n) {
-  const upper = [];
-  const lower = [];
-  const finalUpper = [];
-  const finalLower = [];
+  if (n % 2 == 0 || n < 0) {
+    return null;
+  } else if (n == 1) {
+    return "*\n";
+  } else {
+    const upper = [];
+    const lower = [];
+    const finalUpper = [];
+    const finalLower = [];
 
-  let county = 0;
-  let countx = 1;
+    let county = 0;
+    let countx = 1;
 
-  for (let i = n; i > 0; i -= 2) {
-    upper.push(" ".repeat(county));
-    upper.push("*".repeat(i));
-    county++;
+    for (let i = n; i > 0; i -= 2) {
+      upper.push(" ".repeat(county));
+      upper.push("*".repeat(i));
+      county++;
+    }
+
+    for (let i = n - 2; i > 0; i -= 2) {
+      lower.push(" ".repeat(countx));
+      lower.push("*".repeat(i));
+      countx++;
+    }
+
+    for (let i = 0; i < upper.length; i += 2) {
+      finalUpper.push(`${upper[i]}${upper[i + 1]}`);
+    }
+    for (let i = 0; i < lower.length; i += 2) {
+      finalLower.push(`${lower[i]}${lower[i + 1]}`);
+    }
+
+    // const diamond = [...finalUpper.reverse(), ...finalLower].forEach((el) => {
+    //   console.log(el);
+    // });
+
+    // return diamond;
+
+    return [...finalUpper.reverse(), ...finalLower].join("\n");
   }
-
-  for (let i = n - 2; i > 0; i -= 2) {
-    lower.push(" ".repeat(countx));
-    lower.push("*".repeat(i));
-    countx++;
-  }
-
-  for (let i = 0; i < upper.length; i += 2) {
-    finalUpper.push(`${upper[i]}${upper[i + 1]}`);
-  }
-  for (let i = 0; i < lower.length; i += 2) {
-    finalLower.push(`${lower[i]}${lower[i + 1]}`);
-  }
-
-  // const diamond = [...finalUpper.reverse(), ...finalLower].forEach((el) => {
-  //   console.log(el);
-  // });
-
-  // return diamond;
-
-  return [...finalUpper.reverse(), ...finalLower].join('\n')
 }
 
-console.log(diamond(11));
+console.log(diamond(15));

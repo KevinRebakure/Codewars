@@ -53,4 +53,4 @@ function diamond(n) {
   return [...finalUpper.reverse(), ...finalLower].join('\n')
 }
 
-// console.log(diamond(5));
+console.log(diamond(11));

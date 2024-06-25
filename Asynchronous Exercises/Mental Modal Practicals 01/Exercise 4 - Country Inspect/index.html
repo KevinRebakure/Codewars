@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles/output.css" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/128/9985/9985721.png"
+      type="image/x-icon"
+    />
+    <title>CountriesAPI</title>
+  </head>
+  <body>
+    <section
+      class="w-500px h-300px absolute grid grid-cols-2 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform rounded-xl bg-purple-950 px-10 py-5 text-white"
+    >
+      <form id="form" action="" class="col-span-2 flex gap-x-3">
+        <input
+          type="text"
+          name=""
+          id="query"
+          class="w-60% h-min rounded-lg border-none px-5 py-2 text-purple-950 outline-none"
+          placeholder="Search for a country..."
+        />
+        <input
+          type="submit"
+          value="Search"
+          class="w-40% h-min rounded-lg bg-white px-5 py-2 text-purple-950 transition-all duration-75 hover:cursor-pointer hover:bg-purple-700 hover:text-white"
+        />
+      </form>
+      <div class="space-y-3 p-3">
+        <p class="text-6xl"><span id="temperature">21</span>&deg;C</p>
+        <p>
+          <span id="country" class="text-2xl">France</span>,
+          <span id="city" class="text-sm">Paris</span>
+        </p>
+      </div>
+      <div class="flex items-center justify-center">
+        <img id="flag" src="https://cdn-icons-png.flaticon.com/128/4060/4060248.png" alt="flag" class="w-32 h-auto items-center">
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

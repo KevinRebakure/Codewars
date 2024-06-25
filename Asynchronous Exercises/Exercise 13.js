@@ -1,11 +1,8 @@
 function fetchInParallel() {
-  const fetch01 = () => {
-    return fetch("https://jsonplaceholder.typicode.com/users");
-  };
-  const fetch02 = () => {
-    return fetch("https://jsonplaceholder.typicode.com/posts");
-  };
-  const myPromise = Promise.all([fetch01(), fetch02()]);
+  const myPromise = Promise.all([
+    fetch("https://jsonplaceholder.typicode.com/users"),
+    fetch("https://jsonplaceholder.typicode.com/posts"),
+  ]);
   return myPromise;
 }
 

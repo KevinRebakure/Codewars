@@ -11,22 +11,31 @@
 function myFetch() {
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
-    console.log(xhr);
+    const data = JSON.stringify({
+      customer: "Kevin Rebakure",
+      age: 19,
+      occupation: "Developer",
+    });
+    // console.log(xhr);
     xhr.onreadystatechange = function () {
-      if (this.readyState == 4 && this.status == 200) {
-        resolve(JSON.parse(this.responseText));
-      } else if (this.readyState == 4 && this.status != 200) {
+      if (this.readyState == 4 && this.status == 201) {
+        // console.log(xhr);
+        resolve(JSON.parse(this.response));
+      } else if (this.readyState == 4 && this.status != 201) {
+        // console.log(xhr);
         reject("Some Error happened somewhere!");
       }
     };
-    xhr.open("GET", "https://jsonplaceholder.typicode.com/photos/3");
-    xhr.send();
+    xhr.open("POST", "https://jsonplaceholder.typicode.com/photos/");
+    xhr.setRequestHeader("Content-Type", "application/json");
+    xhr.send(data);
   });
 }
 
 myFetch()
   .then((message) => {
-    console.log(`The URL of the image is: ${message.url}`);
+    console.log(`The URL of the image is: ${message}`);
+    console.log(message);
   })
   .catch((err) => {
     console.error(err);

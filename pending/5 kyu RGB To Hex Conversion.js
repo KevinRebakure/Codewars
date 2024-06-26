@@ -1,7 +1,13 @@
 // Question: https://www.codewars.com/kata/513e08acc600c94f01000001/train/javascript
 
 function rgb(r, g, b) {
-  return `${r.toString(16)}${g.toString(16)}${b.toString(16)}`;
+  let red =
+    r.toString(16).length === 1 ? `0${r.toString(16)}` : `${r.toString(16)}`;
+  let green =
+    g.toString(16).length === 1 ? `0${g.toString(16)}` : `${g.toString(16)}`;
+  let blue =
+    b.toString(16).length === 1 ? `0${b.toString(16)}` : `${b.toString(16)}`;
+  return `${red}${green}${blue}`;
 }
 
-console.log(rgb(0,0,0))
+console.log(rgb(123, 22, 132));

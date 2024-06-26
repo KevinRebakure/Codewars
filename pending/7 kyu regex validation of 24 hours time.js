@@ -2,8 +2,10 @@
 
 function validateTime(time) {
   if (time != "") {
-    return /(([0-2][0-9])|([0-9])):[0-5][0-9]/gi.test(time);
+    return time == /(([0-2][0-4])|([0-1][0-9])|([0-9])):[0-5][0-9]/gi
+      ? true
+      : false;
   }
 }
 
-console.log(validateTime("44:12"));
+console.log(validateTime("24:12"));

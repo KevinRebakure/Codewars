@@ -15,22 +15,22 @@
 //  1 1 1 3 1   1100: 1000 (for three 1s) + 100 (for the other 1)
 //  2 4 4 5 4   450:  400 (for three 4s) + 50 (for the 5)
 
-const game = [5, 1, 3, 4, 1];
+const game = [5, 1, 3, 4, 4, 4, 4, 4];
 
 function score(dice) {
-  const singles = new Map([
-    [1, 100],
-    [5, 50],
-  ]);
+  const singlePoints = {
+    1: 100,
+    5: 50,
+  };
 
-  const multiples = new Map([
-    [1, 1000],
-    [2, 200],
-    [3, 300],
-    [4, 400],
-    [5, 500],
-    [6, 600],
-  ]);
+  const multiplePoints = {
+    1: 1000,
+    2: 200,
+    3: 300,
+    4: 400,
+    5: 500,
+    6: 600,
+  };
 
   const arr = dice.sort((a, b) => a - b);
 
@@ -46,7 +46,19 @@ function score(dice) {
     })
   );
 
-  return Object.keys(numbers);
+  const points = Object.keys(numbers).reduce((p, key) => {
+    p += Math.trunc(numbers[key] / 3) * multiplePoints[key];
+
+    if (numbers[key] === 1 || numbers[key] === 5) {
+      p +=
+        (Math.trunc(numbers[key] / 3) || 0) * multiplePoints[key] +
+        (numbers[key] % 3 || 0) * singlePoints[key];
+    }
+    return p;
+  }, 0);
+
+  return points;
+  // return Object.keys(numbers);
 }
 
 console.log(score(game));

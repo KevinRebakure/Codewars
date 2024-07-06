@@ -6,4 +6,4 @@ export const makeNegative = (num: number): number => {
     } else {
         return num * -1
     }
-};
+}

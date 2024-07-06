@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.generator = generator;
+function* generator(a) {
+    let b = 1;
+    while (true) {
+        yield `${a} x ${b} = ${a * b}`;
+        b++;
+    }
+}

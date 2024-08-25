@@ -13,5 +13,3 @@ const numberFormat = (number) => {
         ? `-${formattedNumber.join(',')}`
         : formattedNumber.join(',')
 }
-
-console.log(numberFormat(100000))

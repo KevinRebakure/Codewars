@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "prettier": "3.5.3",
     "typescript": "^5.5.3"
   }
 }

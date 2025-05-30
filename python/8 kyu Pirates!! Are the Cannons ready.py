@@ -18,6 +18,9 @@ def myFunction(gunners):
         if(gunners[gunner] == 'nay'):
             return 'Shiver me timbers!'
     return 'Fire!'
-    
+
+# Method 2
+def myFunction01(gunners):
+    return "Fire!" if all(value=='aye' for value in gunners.values()) else 'Shiver me timbers!'
         
-print(cannons_ready({'Mike':'nay','Joe':'nay','Johnson':'nay','Peter':'nay'}))
+print(myFunction01({'Mike':'nay','Joe':'nay','Johnson':'nay','Peter':'nay'}))

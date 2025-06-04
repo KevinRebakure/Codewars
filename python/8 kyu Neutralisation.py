@@ -18,10 +18,13 @@ def neutralise2(s1, s2):
      if(len(s1) != len(s2)): return None 
      return ''.join([a if a == b else '0' for a,b in zip(s1, s2)])
  
+ 
+neutralise3=lambda s1,s2: ''.join([a if a==b else '0'  for a,b in zip(s1, s2)])
+ 
 print(neutralise2("--++--", "++--++"))
 #  test.assert_equals(neutralise("--++--", "++--++"), "000000")
 #         test.assert_equals(neutralise("-+-+-+", "-+-+-+"), "-+-+-+")
-#         test.assert_equals(neutralise("-++-", "-+-+"), "-+00")
+#         test.assert_equals(utralise("-++-", "-+-+"), "-+00")
 #         test.assert_equals(neutralise("--++", "++++"), "00++")
 #         test.assert_equals(neutralise("+++--+---", "++----++-"), "++0--000-")
 #         test.assert_equals(neutralise("-----", "-----"), "-----")

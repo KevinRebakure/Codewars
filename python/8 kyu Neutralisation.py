@@ -13,8 +13,12 @@ def neutralise(s1, s2):
           neutral+= '0'
     return neutral
 
-print(neutralise("--++--", "++--++"))
 
+def neutralise2(s1, s2):
+     if(len(s1) != len(s2)): return None 
+     return ''.join([a if a == b else '0' for a,b in zip(s1, s2)])
+ 
+print(neutralise2("--++--", "++--++"))
 #  test.assert_equals(neutralise("--++--", "++--++"), "000000")
 #         test.assert_equals(neutralise("-+-+-+", "-+-+-+"), "-+-+-+")
 #         test.assert_equals(neutralise("-++-", "-+-+"), "-+00")

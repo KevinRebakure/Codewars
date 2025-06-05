@@ -8,3 +8,4 @@ def two_sort(array):
 def two_sort02(array):
     return '***'.join(min(array))
 
+two_sort03=lambda array: '***'.join(sorted(array)[0])

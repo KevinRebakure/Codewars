@@ -14,3 +14,18 @@ def calculate_tip(amount, rating):
             return math.ceil(amount * 0.2)
         case _:
             return "Rating not recognised"
+        
+        
+def method2(amount, rating):
+    rating = rating.lower()
+    tip = {
+        "terrible": 0,
+        "poor": 0.05,
+        "good": 0.1,
+        "great": 0.15,
+        "excellent": 0.2
+    }.get(rating)
+    if (tip == None):
+        return "Rating not recognised"
+    
+    return int(math.ceil(amount * tip))

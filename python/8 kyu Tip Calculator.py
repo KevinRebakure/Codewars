@@ -29,3 +29,12 @@ def method2(amount, rating):
         return "Rating not recognised"
     
     return int(math.ceil(amount * tip))
+
+
+def create_map_from_zip(a, r):
+    d = dict(zip(['terrible', 'poor','good','great','excellent'], [0, 5, 10, 15, 20]))
+    r = r.lower()
+    if r in d:
+        return (math.ceil(d[r]*a/100))
+    else:
+        return 'Rating not recognised'

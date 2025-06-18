@@ -8,3 +8,5 @@ def plural(n):
         return True
     
     
+def interesting(n):
+    return [True, False][n == 1]

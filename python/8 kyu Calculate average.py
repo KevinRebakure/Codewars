@@ -6,3 +6,7 @@ def find_average(numbers):
     for number in numbers:
         sum+=number
     return sum/len(numbers)
+
+
+def shorter(numbers):
+    return sum(numbers)/len(numbers) if(numbers) else 0

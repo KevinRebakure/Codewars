@@ -20,3 +20,12 @@ def using_range(month):
         return 3
     elif month in range(10, 13):
         return 4
+    
+    
+from math import ceil
+def using_ceil(month):
+    return ceil(month / 3)
+
+
+def using_floor_divisor(month):
+    return (month + 2) // 3

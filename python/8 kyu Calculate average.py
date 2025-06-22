@@ -10,3 +10,10 @@ def find_average(numbers):
 
 def shorter(numbers):
     return sum(numbers)/len(numbers) if(numbers) else 0
+
+
+def with_try_except(array):
+    try:
+        return sum(array) / len(array)
+    except ZeroDivisionError:
+        return 0

@@ -9,4 +9,6 @@ def validate_hello(greetings):
     return False
         
 
-print(validate_hello("ciao bella!"))
+def with_any(greetings):
+    various_greetings = ["hello", "ciao", "salut", "hallo", "hola", "ahoj", "czesc"]
+    return any([True if(value in greetings.lower()) else False for value in various_greetings])

@@ -6,3 +6,8 @@ def digitize(n):
     digits.reverse()
     return digits
 
+def with_map(n):
+    return map(int, reversed(str(n)))
+
+def list_shortcut(n):
+    return [int(c) for c in str(n)[::-1]]

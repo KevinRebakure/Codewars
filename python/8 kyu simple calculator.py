@@ -14,5 +14,8 @@ def calculator(x, y, op):
     return calculate[op]
     
 
-    
-print(type('asdf'))
+def with_try(x, y, op):
+    try:
+        return {'+': x + y, '-': x - y, '*': x * y, '/': x / y}[op]
+    except (TypeError, KeyError): 
+        return 'unknown value'

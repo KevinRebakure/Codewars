@@ -6,5 +6,6 @@ def is_palindrome(s):
     
     return ''.join(string_list) == ''.join(string_list[::-1])
 
-
-print(is_palindrome("We panic in a pew"))
+def method_2(s):
+    no_spaces=s.lower().replace(' ','')
+    return no_spaces == no_spaces[::-1]

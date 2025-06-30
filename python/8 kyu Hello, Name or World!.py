@@ -4,3 +4,5 @@ def hello(name="World"):
     return f"Hello, {name.lower().capitalize()}!" if name else "Hello, World!"
 
 
+def method_2(name=''):
+    return f"hello, {name or 'world'}!".title()

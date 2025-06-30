@@ -3,3 +3,6 @@
 
 def invert(lst):
     return [number*-1 for number in lst ]
+
+def method_2(lst):
+    return [-number for number in lst]

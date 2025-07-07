@@ -6,3 +6,7 @@ def str_count(strng, letter):
         if character == letter:
             count += 1
     return count
+
+
+def with_count_method(strng, letter):
+    return strng.count(letter)

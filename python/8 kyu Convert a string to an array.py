@@ -3,3 +3,6 @@
 def string_to_array(s):
     if not s: return ['']
     return s.split()
+
+def string_2(s):
+    return s.split(' ')

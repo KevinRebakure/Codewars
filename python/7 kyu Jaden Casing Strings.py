@@ -8,4 +8,7 @@ def to_jaden_case(string):
         final_list.append(word.capitalize())
     return ' '.join(final_list)
 
-print(to_jaden_case("How can mirrors be real if our eyes aren't real"))
+def with_map(string):
+    return ' '.join(map(lambda word: word.capitalize(), string.split()))
+
+print(with_map("How can mirrors be real if our eyes aren't real"))

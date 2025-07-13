@@ -8,4 +8,7 @@ def accum(st):
         result.append((list_st[i]*(i+1)).capitalize())
     return '-'.join(result)
 
-print(accum('abcd'))
+def with_enumarate(st):
+    return '-'.join((letter * (i+1)).capitalize() for i,letter in enumerate(st))
+    
+print(list(enumerate('abcd')))

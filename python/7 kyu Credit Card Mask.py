@@ -6,6 +6,6 @@ def maskify(cc):
 
 
 def with_rjust(cc):
-    return cc[-4:].rjust(len(cc)-4, '#')
+    return cc[-4:].rjust(len(cc), '#')
 
 print(maskify("4556364607935616"))

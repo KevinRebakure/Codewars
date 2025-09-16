@@ -12,3 +12,12 @@ def arithmetic(a, b, operator):
             return a / b
         case _:
             return 'Invalid operation!'
+
+def arithmetic02(a, b, operator):
+    op = {
+        'add': '+',
+        'subtract': '-',
+        'multiply': '*',
+        'divide': '/'
+    }
+    return eval("{} {} {}".format(a, op[operator], b))

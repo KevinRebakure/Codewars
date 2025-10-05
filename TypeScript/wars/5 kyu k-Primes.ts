@@ -97,7 +97,7 @@ const countPrimeFactors = (num: number): number => {
     return count;
 };
 
-export const countKprimes = (
+const countKprimes = (
     k: number,
     start: number,
     nd: number
@@ -115,7 +115,7 @@ export const countKprimes = (
 
 console.log(countKprimes(2, 1, 100));
 
-export const puzzle = (s: number): number => {
+const puzzle = (s: number): number => {
     // Find all 1-primes, 3-primes, and 7-primes up to s
     const onePrimes = countKprimes(1, 2, s);
     const threePrimes = countKprimes(3, 2, s);

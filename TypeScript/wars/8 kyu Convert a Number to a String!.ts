@@ -1,5 +1,5 @@
-export function numberToString(num: number): string {
-    return num.toString()
+function numberToString(num: number): string {
+  return num.toString();
 }
 
-console.log(numberToString(123))
+console.log(numberToString(123));

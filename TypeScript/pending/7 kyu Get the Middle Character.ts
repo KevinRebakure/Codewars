@@ -8,13 +8,13 @@
 
 // Kata.getMiddle("A") should return "A"
 
-export function getMiddle(s: string) {
-    if (s.length % 2 !== 0) {
-        return s.charAt(Math.trunc(s.length / 2))
-    } else {
-        return ''
-    }
-    // return the middle charater(s)
+function getMiddle(s: string) {
+  if (s.length % 2 !== 0) {
+    return s.charAt(Math.trunc(s.length / 2));
+  } else {
+    return "";
+  }
+  // return the middle charater(s)
 }
 
-console.log(getMiddle('kevin'))
+console.log(getMiddle("kevin"));

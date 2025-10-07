@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="8 kyu&#10;Counting sheep...">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/BusTour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/IntegerBarrier.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
     "Application.CountingSheep.executor": "Run",
     "Application.EvenOrOdd8kyu.executor": "Run",
     "Application.GrasshopperSummation8kyu.executor": "Run",
+    "Application.IntegerBarrier.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.SmallestIntegerInArray8kyu.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -125,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759737903791</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="bus tour">
+      <option name="closed" value="true" />
+      <created>1759825954608</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759825954608</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +154,18 @@
     <MESSAGE value="8 kyu&#10;Grasshopper - Summation" />
     <MESSAGE value="8 kyu&#10;Function 1 - hello world" />
     <MESSAGE value="8 kyu&#10;Counting sheep..." />
-    <option name="LAST_COMMIT_MESSAGE" value="8 kyu&#10;Counting sheep..." />
+    <MESSAGE value="bus tour" />
+    <option name="LAST_COMMIT_MESSAGE" value="bus tour" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/BusTour.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

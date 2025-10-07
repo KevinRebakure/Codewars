@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/54edbc7200b811e956000556/solutions/java
-package org.example;
+package org.java.codewars;
 
 public class CountingSheep8kyu {
     static void main(String[] args) {

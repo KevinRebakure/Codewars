@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/ReferenceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/java/codewars/LongestWordInSentence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ConvertNumberToString8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/java/codewars/ConvertNumberToString8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CountingSheep8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/java/codewars/CountingSheep8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EvenOrOdd8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/java/codewars/EvenOrOdd8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GrasshopperSummation8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/java/codewars/GrasshopperSummation8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/java/codewars/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/java/codewars/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SmallestIntegerInArray8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/java/codewars/SmallestIntegerInArray8kyu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +59,8 @@
     "Application.EvenOrOdd8kyu.executor": "Run",
     "Application.GrasshopperSummation8kyu.executor": "Run",
     "Application.IntegerBarrier.executor": "Run",
-    "Application.Main.executor": "Debug",
+    "Application.LongestWordInSentence.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.ReferenceType.executor": "Run",
     "Application.SmallestIntegerInArray8kyu.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -171,7 +179,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <condition expression="greatestPrimeInRange &lt; 429" language="JAVA" />
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/java/codewars/Main.java</url>
           <line>10</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>

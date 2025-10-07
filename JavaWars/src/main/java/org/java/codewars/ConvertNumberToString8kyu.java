@@ -1,6 +1,6 @@
 //https://www.codewars.com/kata/5265326f5fda8eb1160004c8/train/java
 
-package org.example;
+package org.java.codewars;
 
 public class ConvertNumberToString8kyu {
     static void main(String[] args) {

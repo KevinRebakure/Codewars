@@ -1,4 +1,4 @@
-package org.example;
+package org.java.codewars;
 
 public class EvenOrOdd8kyu {
     static void main(String[] args) {

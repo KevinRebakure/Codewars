@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="8 kyu&#10;Function 1 - hello world">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CountingSheep8kyu.java" afterDir="false" />
+    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="8 kyu&#10;Counting sheep...">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/BusTour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BusTour.executor": "Run",
     "Application.ConvertNumberToString8kyu.executor": "Run",
     "Application.CountingSheep.executor": "Run",
     "Application.EvenOrOdd8kyu.executor": "Run",
@@ -108,7 +109,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759733593779</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="8 kyu&#10;Counting sheep...">
+      <option name="closed" value="true" />
+      <created>1759737874055</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759737874055</updated>
+    </task>
+    <task id="LOCAL-00007" summary="8 kyu&#10;Counting sheep...">
+      <option name="closed" value="true" />
+      <created>1759737903791</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759737903791</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +145,7 @@
     <MESSAGE value="8 kyu&#10;Find the smallest integer in the array" />
     <MESSAGE value="8 kyu&#10;Grasshopper - Summation" />
     <MESSAGE value="8 kyu&#10;Function 1 - hello world" />
-    <option name="LAST_COMMIT_MESSAGE" value="8 kyu&#10;Function 1 - hello world" />
+    <MESSAGE value="8 kyu&#10;Counting sheep..." />
+    <option name="LAST_COMMIT_MESSAGE" value="8 kyu&#10;Counting sheep..." />
   </component>
 </project>

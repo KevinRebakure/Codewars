@@ -1,4 +1,4 @@
-package org.java.codewars;
+package com.hyperskill.exercises;
 
 import java.util.Scanner;
 

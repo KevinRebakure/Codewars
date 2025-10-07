@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/523b4ff7adca849afe000035/train/java
-package org.java.codewars;
+package com.hyperskill.exercises;
 
 public class HelloWorld {
     static void main(String[] args) {

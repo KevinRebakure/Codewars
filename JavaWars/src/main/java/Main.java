@@ -1,9 +1,9 @@
 public class Main {
     static void main(String[] args) {
-        String text= "Kevin Rebakure";
+        String[] names = {"Kevin", "Rebakure", "Odile"};
 
-        String[] parts = text.split("");
-
-        System.out.println(parts.length);
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i]);
+        }
     }
 }

@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/DoubledCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/java/codewars/CompressionAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/CompressionAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/java/codewars/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/java/codewars/LongestWordInSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/LongestWordInSentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/java/codewars/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/java/codewars/ArrayOfLongs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayOfLongs.executor": "Run",
     "Application.BusTour.executor": "Run",
     "Application.CompressionAlgorithm.executor": "Run",
     "Application.ConvertNumberToString8kyu.executor": "Run",

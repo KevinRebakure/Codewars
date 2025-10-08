@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,31 +44,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayOfLongs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BusTour.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompressionAlgorithm.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConvertNumberToString8kyu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountingSheep.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DoubledCharacters.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvenOrOdd8kyu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GrasshopperSummation8kyu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntegerBarrier.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestWordInSentence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReferenceType.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmallestIntegerInArray8kyu.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/TheGym/Documents/Codewars/JavaWars/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayOfLongs.executor": "Run",
+    "Application.BusTour.executor": "Run",
+    "Application.CompressionAlgorithm.executor": "Run",
+    "Application.ConvertNumberToString8kyu.executor": "Run",
+    "Application.CountingSheep.executor": "Run",
+    "Application.DoubledCharacters.executor": "Run",
+    "Application.EvenOrOdd8kyu.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
+    "Application.GrasshopperSummation8kyu.executor": "Run",
+    "Application.IntegerBarrier.executor": "Run",
+    "Application.LongestWordInSentence.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ReferenceType.executor": "Run",
+    "Application.SmallestIntegerInArray8kyu.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/TheGym/Documents/Codewars/JavaWars/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="" />

@@ -6,6 +6,8 @@ import java.util.Scanner;
 public class MortgageCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        final byte MONTHS_IN_YEAR = 12;
+        final byte PERCENT = 100;
 
         // Get the principal
         System.out.print("Principal ($1k - $1M): ");
@@ -23,14 +25,15 @@ public class MortgageCalculator {
             annualInterestRate = scanner.nextDouble();
         }
 
-
         // Get period in years
         System.out.print("Period (Years): ");
         int periodYears = scanner.nextInt();
+        while (!(periodYears >= 0 && periodYears <= 30)) {
+            System.out.println("Enter a value between 1 and 30: ");
+            periodYears = scanner.nextInt();
+        }
 
         // Convert annual rate to monthly and period to months
-        final byte MONTHS_IN_YEAR = 12;
-        final byte PERCENT = 100;
 
         double monthlyInterest = (annualInterestRate / PERCENT) / MONTHS_IN_YEAR;
         int numberOfPayments = periodYears * MONTHS_IN_YEAR;

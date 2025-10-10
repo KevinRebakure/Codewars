@@ -8,12 +8,21 @@ public class MortgageCalculator {
         Scanner scanner = new Scanner(System.in);
 
         // Get the principal
-        System.out.print("Principal: ");
+        System.out.print("Principal ($1k - $1M): ");
         int principal = scanner.nextInt();
+        while (!(principal >= 1000 && principal <= 1_000_000)) {
+            System.out.print("Enter a number between 1,000 and 1,000,000: ");
+            principal = scanner.nextInt();
+        }
 
         // Get annual interest rate
         System.out.print("Annual Interest Rate: ");
         double annualInterestRate = scanner.nextDouble();
+        while (!(annualInterestRate > 0 && annualInterestRate<=30)){
+            System.out.println("Enter a value greater than 0 and less than or equal to 30: ");
+            annualInterestRate = scanner.nextDouble();
+        }
+
 
         // Get period in years
         System.out.print("Period (Years): ");

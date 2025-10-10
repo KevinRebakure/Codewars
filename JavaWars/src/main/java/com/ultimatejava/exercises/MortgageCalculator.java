@@ -7,31 +7,10 @@ public class MortgageCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Get the principal
-        System.out.print("Principal ($1k - $1M): ");
-        int principal = scanner.nextInt();
-        while (!(principal >= 1000 && principal <= 1_000_000)) {
-            System.out.print("Enter a number between 1,000 and 1,000,000: ");
-            principal = scanner.nextInt();
-        }
+        int principal = (int) readValue(scanner, "Principe ($1k - $1M): ", 1000, 1_000_000);
+        double annualInterestRate = readValue(scanner, "Annual Interest Rate: ", 0, 30);
+        byte periodYears = (byte) readValue(scanner, "Period (Years): ", 1, 30);
 
-        // Get annual interest rate
-        System.out.print("Annual Interest Rate: ");
-        double annualInterestRate = scanner.nextDouble();
-        while (!(annualInterestRate > 0 && annualInterestRate<=30)){
-            System.out.println("Enter a value greater than 0 and less than or equal to 30: ");
-            annualInterestRate = scanner.nextDouble();
-        }
-
-        // Get period in years
-        System.out.print("Period (Years): ");
-        byte periodYears = scanner.nextByte();
-        while (!(periodYears >= 0 && periodYears <= 30)) {
-            System.out.println("Enter a value between 1 and 30: ");
-            periodYears = scanner.nextByte();
-        }
-
-        // Display formatted mortgage
         double mortgage = calculateMortgage(principal, annualInterestRate, periodYears);
         String formattedMortgage = NumberFormat.getCurrencyInstance().format(mortgage);
         System.out.println("Mortgage: " + formattedMortgage);
@@ -51,5 +30,16 @@ public class MortgageCalculator {
                 / (Math.pow(1 + monthlyInterest, numberOfPayments) - 1);
 
         return mortgage;
+    };
+
+    public static double readValue(Scanner scanner, String message, int min, int max) {
+        System.out.println(message);
+        double value = scanner.nextDouble();
+
+        while (!(value >= min && value <= max)) {
+            System.out.println("Provide a value between " + min + " and " + max);
+            value = scanner.nextDouble();
+        }
+        return value;
     };
 }

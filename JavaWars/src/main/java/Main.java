@@ -1,10 +1,17 @@
-import java.text.NumberFormat;
-
 public class Main {
     static void main(String[] args) {
-       boolean rich = false;
+        System.out.println("Line 1");
+        System.out.println("Line 2");
 
-       if (rich) System.out.println("Buy a car");
-       else System.out.println("Save money");
+        printNumbers();
+
+        System.out.println("Line 3");
+        System.out.println("Line 3");
+    }
+
+    public static void printNumbers() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i);
+        }
     }
 }

@@ -1,7 +1,7 @@
 //https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3/train/java
 package org.java.codewars;
 
-public class AbbreviateaTwoWordName {
+public class AbbreviateaTwoWordName8kyu {
     static void main(String[] args) {
         System.out.println(abbrevName("Kevin Rebakure"));
     }

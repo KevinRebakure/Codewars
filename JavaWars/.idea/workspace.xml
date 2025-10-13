@@ -43,6 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayOfLongs.executor": "Run",
+    "Application.BasicMathematicalOperations8kyu.executor": "Run",
     "Application.BusTour.executor": "Run",
     "Application.CompressionAlgorithm.executor": "Run",
     "Application.ConvertNumberToString8kyu.executor": "Run",

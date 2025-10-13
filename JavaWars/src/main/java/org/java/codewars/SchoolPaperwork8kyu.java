@@ -1,0 +1,15 @@
+//https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd/train/java
+package org.java.codewars;
+
+public class SchoolPaperwork8kyu {
+    static void main(String[] args) {
+
+    }
+
+    public static int paperWork(int n, int m) {
+        //Happy Coding! ^_^
+        if (n < 0 || m < 0) return 0;
+
+        return n * m;
+    };
+}

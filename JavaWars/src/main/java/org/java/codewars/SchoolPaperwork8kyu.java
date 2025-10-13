@@ -12,4 +12,8 @@ public class SchoolPaperwork8kyu {
 
         return n * m;
     };
+
+    public static int method2(int n, int m) {
+        return Math.max(m, 0) * Math.max(n, 0);
+    }
 }

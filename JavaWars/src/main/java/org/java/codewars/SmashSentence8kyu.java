@@ -1,6 +1,6 @@
 package org.java.codewars;
 
-public class SmashSentence {
+public class SmashSentence8kyu {
     public static String smash(String... words) {
         return String.join(" ", words).trim();
     }

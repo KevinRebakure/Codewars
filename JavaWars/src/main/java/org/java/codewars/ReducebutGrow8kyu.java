@@ -1,5 +1,8 @@
 package org.java.codewars;
 
+import java.util.Arrays;
+import java.util.stream.IntStream;
+
 public class ReducebutGrow8kyu {
     static void main(String[] args) {
 
@@ -12,6 +15,16 @@ public class ReducebutGrow8kyu {
             result *= x[i];
         }
         return result;
+
+    }
+
+    public static int grow2(int[] x){
+        return Arrays.stream(x).reduce(1 ,(a, b) -> a * b);
+    }
+
+    public static int grow3(int[] x){
+
+        return IntStream.of(x).reduce(1, (a, b) -> a * b);
 
     }
 }

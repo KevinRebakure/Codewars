@@ -1,6 +1,8 @@
 //https://www.codewars.com/kata/5601409514fc93442500010b/train/java
 package org.java.codewars;
 
+import java.util.Arrays;
+
 public class HowGoodAreYouReally8kyui {
     static void main(String[] args) {
 
@@ -13,5 +15,9 @@ public class HowGoodAreYouReally8kyui {
         }
 
         return yourPoints > sum / classPoints.length;
+    }
+
+    static boolean betterThanAverage2(final int[] classPoints, final int yourPoints) {
+        return Arrays.stream(classPoints).average().orElse(0) < yourPoints;
     }
 }

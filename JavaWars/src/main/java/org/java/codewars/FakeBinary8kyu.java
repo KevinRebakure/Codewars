@@ -13,6 +13,10 @@ public class FakeBinary8kyu {
         return result;
     }
 
+    public static String fakeBin2(String s) {
+        return s.replaceAll("[1-4]","0").replaceAll("[^0]","1");
+    }
+
     static void main(String[] args) {
         String name = "Kevin";
         System.out.println(name.split("")[0]);

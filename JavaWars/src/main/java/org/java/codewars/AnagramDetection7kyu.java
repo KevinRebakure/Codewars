@@ -29,7 +29,19 @@ public class AnagramDetection7kyu {
 
     }
 
+    public static boolean isAnagramMethod2(String a, String b) {
+        if (a.length() != b.length())  return false;
+
+        char[] aCharacters = a.toLowerCase().toCharArray();
+        char[] bCharacters = b.toLowerCase().toCharArray();
+
+        Arrays.sort(aCharacters);
+        Arrays.sort(bCharacters);
+
+        return Arrays.equals(aCharacters, bCharacters);
+    }
+
     static void main(String[] args) {
-        System.out.println(isAnagram("aab", "baa"));
+        System.out.println(isAnagramMethod2("aab", "baa"));
     }
 }

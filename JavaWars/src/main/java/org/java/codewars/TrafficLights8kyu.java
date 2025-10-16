@@ -8,6 +8,15 @@ public class TrafficLights8kyu {
         return "";
     }
 
+    public static String updateLight2(String current) {
+        switch (current) {
+            case "red": return "green";
+            case "yellow": return "red";
+            case "green": return "yellow";
+            default: throw new IllegalArgumentException();
+        }
+    }
+
     static void main(String[] args) {
 
     }

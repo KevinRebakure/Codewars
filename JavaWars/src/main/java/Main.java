@@ -1,10 +1,8 @@
-import java.util.Optional;
+import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(2 + 4 * 5 - 10 / 3);
+        LocalDate date1 = LocalDate.ofYearDay(2017, 366);
+        System.out.println(date1);
     }
-
-
-
 }

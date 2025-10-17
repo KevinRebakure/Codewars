@@ -2,15 +2,9 @@ import java.util.Optional;
 
 public class Main {
     public static void main(String[] args) {
-        Test person = new Test("Kevin", 12);
+        System.out.println(2 + 4 * 5 - 10 / 3);
     }
-}
 
-class Test {
-    private String name;
-    private int age;
-    public Test(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
+
+
 }

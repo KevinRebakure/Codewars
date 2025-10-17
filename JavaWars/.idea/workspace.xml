@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/TenDaysBefore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/PrintDatesWithAnOffset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +66,7 @@
     "Application.LostWithoutaMap8kyu.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MortgageCalculator.executor": "Run",
+    "Application.PrintDatesWithAnOffset.executor": "Run",
     "Application.ReferenceType.executor": "Run",
     "Application.RemoveStringSpaces.executor": "Run",
     "Application.ReturningStrings8kyu.executor": "Run",

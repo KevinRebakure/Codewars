@@ -1,4 +1,4 @@
-package com.ultimatejava.mortagagecalculator;
+package com.ultimatejava.refactor_mortgage_calculator_v1;
 
 public class Calculator {
     final static byte MONTHS_IN_YEAR = 12;

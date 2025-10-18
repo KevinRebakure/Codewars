@@ -1,4 +1,4 @@
-package org.java.codewars;
+package com.codewars;
 
 public class PersonalizedMessage8kyu {
     static String greet(String name, String owner) {

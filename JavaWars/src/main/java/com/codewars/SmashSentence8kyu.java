@@ -1,4 +1,4 @@
-package org.java.codewars;
+package com.codewars;
 
 public class SmashSentence8kyu {
     public static String smash(String... words) {

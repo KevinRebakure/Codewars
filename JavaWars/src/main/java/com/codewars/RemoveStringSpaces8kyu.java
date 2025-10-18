@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/57eae20f5500ad98e50002c5/train/java
-package org.java.codewars;
+package com.codewars;
 
 public class RemoveStringSpaces8kyu {
     static void main(String[] args) {

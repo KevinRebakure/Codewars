@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/5a00e05cc374cb34d100000d/train/java
-package org.java.codewars;
+package com.codewars;
 
 public class ReversedSequence8kyu {
     public static int[] reverse(int n){

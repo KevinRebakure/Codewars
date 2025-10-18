@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3/train/java
-package org.java.codewars;
+package com.codewars;
 
 public class AbbreviateaTwoWordName8kyu {
     static void main(String[] args) {

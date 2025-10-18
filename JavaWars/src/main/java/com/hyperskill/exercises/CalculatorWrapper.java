@@ -1,7 +1,5 @@
 package com.hyperskill.exercises;
 
-import java.net.CacheRequest;
-
 class CalculatorWrapper {
     static Calculator anonymousCalculator = new Calculator() {
         @Override

@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/59ca8246d751df55cc00014c/train/java
-package org.java.codewars;
+package com.codewars;
 
 public class IsHeGonnaSurvive8kyu {
     static void main(String[] args) {

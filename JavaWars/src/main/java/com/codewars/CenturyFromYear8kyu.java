@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097/train/java
-package org.java.codewars;
+package com.codewars;
 
 public class CenturyFromYear8kyu {
     public static int century(int number) {

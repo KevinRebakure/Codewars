@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/57356c55867b9b7a60000bd7/train/java
-package org.java.codewars;
+package com.codewars;
 
 public class BasicMathematicalOperations8kyu {
     static void main(String[] args) {

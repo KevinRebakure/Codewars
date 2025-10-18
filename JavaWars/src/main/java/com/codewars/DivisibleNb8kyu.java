@@ -1,4 +1,4 @@
-package org.java.codewars;
+package com.codewars;
 
 public class DivisibleNb8kyu {
     public static boolean isDivisible(long n, long x, long y) {

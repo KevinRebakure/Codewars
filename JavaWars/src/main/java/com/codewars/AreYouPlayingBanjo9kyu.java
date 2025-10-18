@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/53af2b8861023f1d88000832/train/java
-package org.java.codewars;
+package com.codewars;
 
 public class AreYouPlayingBanjo9kyu {
     public static String areYouPlayingBanjo(String name) {

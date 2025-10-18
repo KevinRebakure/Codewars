@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/5601409514fc93442500010b/train/java
-package org.java.codewars;
+package com.codewars;
 
 import java.util.Arrays;
 

@@ -1,3 +1,5 @@
+package com.hyperskill.exercises;
+
 import java.util.Scanner;
 
 // Creating class

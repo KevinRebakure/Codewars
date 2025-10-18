@@ -1,4 +1,4 @@
-package com.ultimatejava.mortagagecalculator;
+package com.ultimatejava.refactor_mortgage_calculator_v1;
 
 public class Main {
     public static void main(String[] args) {

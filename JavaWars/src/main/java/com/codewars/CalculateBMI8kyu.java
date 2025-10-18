@@ -1,4 +1,4 @@
-package org.java.codewars;
+package com.codewars;
 
 public class CalculateBMI8kyu {
     public static String bmi(double weight, double height) {

@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/53ee5429ba190077850011d4/train/java
-package org.java.codewars;
+package com.codewars;
 
 public class DoubleInteger8kyu {
     public static int doubleInteger(int i) {

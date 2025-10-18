@@ -1,4 +1,4 @@
-package org.java.codewars;
+package com.codewars;
 
 public class TrafficLights8kyu {
     public static String updateLight(String current) {

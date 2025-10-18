@@ -1,4 +1,4 @@
-package org.java.codewars;
+package com.codewars;
 
 public class AreaOrPerimeter8kyu {
     public static int areaOrPerimeter (int l, int w) {

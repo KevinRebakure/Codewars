@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/55cbd4ba903825f7970000f5/train/java
-package org.java.codewars;
+package com.codewars;
 
 public class GradeBook8kyu {
     public static char getGrade(int s1, int s2, int s3) {

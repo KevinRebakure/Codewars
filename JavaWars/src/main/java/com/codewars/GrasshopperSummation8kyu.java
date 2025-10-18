@@ -1,4 +1,4 @@
-package org.java.codewars;
+package com.codewars;
 
 public class GrasshopperSummation8kyu {
     static void main(String[] args) {

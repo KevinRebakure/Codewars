@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd/train/java
-package org.java.codewars;
+package com.codewars;
 
 public class SchoolPaperwork8kyu {
     static void main(String[] args) {

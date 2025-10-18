@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/57eae65a4321032ce000002d/train/java
-package org.java.codewars;
+package com.codewars;
 
 public class FakeBinary8kyu {
     public static String fakeBin(String numberString) {

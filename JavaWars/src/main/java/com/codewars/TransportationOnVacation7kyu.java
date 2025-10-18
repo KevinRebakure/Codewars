@@ -1,4 +1,4 @@
-package org.java.codewars;
+package com.codewars;
 
 public class TransportationOnVacation7kyu {
     public static int rentalCarCost(int d) {

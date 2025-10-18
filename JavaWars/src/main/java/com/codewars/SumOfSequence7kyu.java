@@ -1,4 +1,4 @@
-package org.java.codewars;
+package com.codewars;
 
 public class SumOfSequence7kyu {
     public static int sequenceSum(int start, int end, int step) {

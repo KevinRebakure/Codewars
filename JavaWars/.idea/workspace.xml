@@ -1,13 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="RefactoredMortgageCalculator:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/RefactoredMortgageCalculator_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mortgage_calculator_v2/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mortgage_calculator_v2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/exercises/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/exercises/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/exercises/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/exercises/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/AbbreviateaTwoWordName8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/AbbreviateaTwoWordName8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/AnagramDetection7kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/AnagramDetection7kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/AreYouPlayingBanjo9kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/AreYouPlayingBanjo9kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/AreaOrPerimeter8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/AreaOrPerimeter8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/ArrayOfLongs8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/ArrayOfLongs8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/BasicMathematicalOperations8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/BasicMathematicalOperations8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/CalculateBMI8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/CalculateBMI8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/CenturyFromYear8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/CenturyFromYear8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/Clock8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/Clock8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/ConvertNumberToString8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/ConvertNumberToString8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/CountingSheep8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/CountingSheep8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/DivisibleNb8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/DivisibleNb8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/DoubleInteger8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/DoubleInteger8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/EvenOrOdd8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/EvenOrOdd8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/FakeBinary8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/FakeBinary8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/FindMInAndMax8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/FindMInAndMax8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/FindNeedle8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/FindNeedle8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/GradeBook8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/GradeBook8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/GrasshopperSummation8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/GrasshopperSummation8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/HowGoodAreYouReally8kyui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/HowGoodAreYouReally8kyui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/IsHeGonnaSurvive8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/IsHeGonnaSurvive8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/LostWithoutaMap8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/LostWithoutaMap8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/MakeUpperCase8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/MakeUpperCase8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/OppositesAttract8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/OppositesAttract8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/PersonalizedMessage8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/PersonalizedMessage8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/ReducebutGrow8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/ReducebutGrow8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/RemoveStringSpaces8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/RemoveStringSpaces8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/ReturningStrings8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/ReturningStrings8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/ReversedSequence8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/ReversedSequence8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/RockPaperScissors8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/RockPaperScissors8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/SchoolPaperwork8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/SchoolPaperwork8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/SimpleMultiplication8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/SimpleMultiplication8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/SmallestIntegerInArray8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/SmallestIntegerInArray8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/SmashSentence8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/SmashSentence8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/SortArrayByStringLength7kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/SortArrayByStringLength7kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/SumOfSequence7kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/SumOfSequence7kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/TrafficLights8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/TrafficLights8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/TransportationOnVacation7kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/TransportationOnVacation7kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/YouOnlyNeedOne8kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/YouOnlyNeedOne8kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/BookStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/BookStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/CalculatorWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/CalculatorWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/mortagagecalculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mortgage_calculator_v1/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/mortagagecalculator/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mortgage_calculator_v1/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/mortagagecalculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mortgage_calculator_v1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/mortagagecalculator/ReadInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mortgage_calculator_v1/ReadInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +131,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/TheGym/Documents/Codewars/JavaWars/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>

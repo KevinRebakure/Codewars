@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mortgage_calculator_v2/MortgageCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mortgage_calculator_v2/MortgageReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mortgage_calculator_v2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mortgage_calculator_v2/Main.java" afterDir="false" />
     </list>
@@ -98,6 +99,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.ultimatejava.refactor_mortgage_calculator_v2.MortgageReport" />
       <recent name="com.ultimatejava.refactor_mortgage_calculator_v2.MortgageCalculator" />
       <recent name="com.ultimatejava.refactor_mortgage_calculator_v2.Console" />
       <recent name="Console" />

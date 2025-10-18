@@ -2,10 +2,11 @@ package com.ultimatejava.exercises;
 
 public class Main {
     public static void main(String[] args) {
-        var employee = new Employee();
-        employee.setBaseSalary(50_000);
-        employee.setHourlyRate(12);
-        int wage = employee.calculateWage(2);
-        System.out.println(wage);
+        var employee01 = new Employee(50_000, 50);
+        var employee02 = new Employee(50_000, 50);
+        var employee03 = new Employee(50_000, 50);
+        var employee04 = new Employee(50_000, 50);
+
+        System.out.println(Employee.getNumberOfEmployees());
     }
 }

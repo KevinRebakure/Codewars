@@ -3,6 +3,21 @@ package com.ultimatejava.exercises;
 public class Employee {
     private int baseSalary;
     private int hourlyRate;
+    private static int numberOfEmployees;
+
+    public Employee(int baseSalary, int hourlyRate) {
+        this.baseSalary = baseSalary;
+        this.hourlyRate = hourlyRate;
+        setNumberOfEmployees(getNumberOfEmployees() + 1);
+    }
+
+    public static int getNumberOfEmployees() {
+        return numberOfEmployees;
+    }
+
+    public static void setNumberOfEmployees(int numberOfEmployees) {
+        Employee.numberOfEmployees = numberOfEmployees;
+    }
 
     public int calculateWage(int extraHours) {
         return getBaseSalary() + (getHourlyRate() * extraHours);

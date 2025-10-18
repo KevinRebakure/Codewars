@@ -10,10 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mortgage_calculator_v2/MortgageReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mortgage_calculator_v2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mortgage_calculator_v2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Example.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +61,7 @@
     "Application.CountingSheep.executor": "Run",
     "Application.DoubledCharacters.executor": "Run",
     "Application.EvenOrOdd8kyu.executor": "Run",
+    "Application.Example.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FakeBinary8kyu.executor": "Run",
     "Application.FindAllMondays.executor": "Debug",

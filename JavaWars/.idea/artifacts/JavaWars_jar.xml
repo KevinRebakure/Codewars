@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaWars:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaWars_jar</output-path>
+    <root id="archive" name="JavaWars.jar">
+      <element id="module-output" name="JavaWars" />
+    </root>
+  </artifact>
+</component>

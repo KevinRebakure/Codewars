@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MyTube:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyTube_jar</output-path>
+    <root id="archive" name="JavaWars.jar">
+      <element id="module-output" name="JavaWars" />
+    </root>
+  </artifact>
+</component>

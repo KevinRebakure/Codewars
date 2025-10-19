@@ -1,5 +1,5 @@
 package com.ultimatejava.MyTube;
 
-public interface VideoProcessorInterface {
+public interface ProcessorInterface {
     void process(Video video);
 }

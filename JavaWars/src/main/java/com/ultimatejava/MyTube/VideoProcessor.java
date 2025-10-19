@@ -1,6 +1,6 @@
 package com.ultimatejava.MyTube;
 
-public class VideoProcessor implements VideoProcessorInterface {
+public class VideoProcessor implements ProcessorInterface {
     private final VideoDatabase database;
     private final VideoEncoder encoder;
     private final EmailService emailService;

@@ -1,15 +1,20 @@
 package com.ultimatejava.MyTube;
 
-public class VideoProcessor {
+public class VideoProcessor implements VideoProcessorInterface {
+    private final VideoDatabase database;
+    private final VideoEncoder encoder;
+    private final EmailService emailService;
+
+    public VideoProcessor(VideoDatabase database, VideoEncoder encoder, EmailService emailService) {
+        this.database = database;
+        this.encoder = encoder;
+        this.emailService = emailService;
+    }
+
+    @Override
     public void process(Video video) {
-        var encoder = new VideoEncoder();
         encoder.encode(video);
-
-        var database = new VideoDatabase();
         database.store(video);
-
-        var emailService = new EmailService();
         emailService.sendEmail(video.getUser());
     }
 }
-

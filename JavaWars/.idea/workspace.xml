@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="RefactoredMortgageCalculator:jar" />
+      <artifact name="MyTube:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,15 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/VideoDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/VideoEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/VideoProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/VideoProcessorInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/VideoProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/VideoProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

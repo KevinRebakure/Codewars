@@ -1,11 +1,14 @@
-package com.ultimatejava.MyTube;
+package com.ultimatejava.refactor_mytube;
 
 public class VideoProcessor implements ProcessorInterface {
     private final VideoDatabase database;
     private final VideoEncoder encoder;
     private final EmailService emailService;
 
-    public VideoProcessor(VideoDatabase database, VideoEncoder encoder, EmailService emailService) {
+    public VideoProcessor(
+            VideoDatabase database,
+            VideoEncoder encoder,
+            EmailService emailService) {
         this.database = database;
         this.encoder = encoder;
         this.emailService = emailService;

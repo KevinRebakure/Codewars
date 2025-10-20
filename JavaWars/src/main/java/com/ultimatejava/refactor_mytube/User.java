@@ -1,4 +1,4 @@
-package com.ultimatejava.MyTube;
+package com.ultimatejava.refactor_mytube;
 
 public class User implements UserInterface {
     private String email;

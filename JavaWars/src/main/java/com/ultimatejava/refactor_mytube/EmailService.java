@@ -1,4 +1,4 @@
-package com.ultimatejava.MyTube;
+package com.ultimatejava.refactor_mytube;
 
 public class EmailService implements EmailInterface {
     public void sendEmail(User user) {

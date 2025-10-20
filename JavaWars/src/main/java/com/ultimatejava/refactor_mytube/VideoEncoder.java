@@ -1,4 +1,4 @@
-package com.ultimatejava.MyTube;
+package com.ultimatejava.refactor_mytube;
 
 public class VideoEncoder implements EncoderInterface{
     public void encode(Video video) {

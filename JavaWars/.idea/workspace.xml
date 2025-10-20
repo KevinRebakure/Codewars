@@ -10,10 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/VideoProcessorInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/VideoProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/VideoProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/DatabaseInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mytube/DatabaseInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/EmailInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mytube/EmailInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mytube/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/EncoderInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mytube/EncoderInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mytube/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/ProcessorInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mytube/ProcessorInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mytube/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mytube/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mytube/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/VideoDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mytube/VideoDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/VideoEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mytube/VideoEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/VideoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mytube/VideoInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimatejava/MyTube/VideoProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimatejava/refactor_mytube/VideoProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +116,9 @@
       <recent name="com.ultimatejava.refactor_mortgage_calculator_v2.MortgageCalculator" />
       <recent name="com.ultimatejava.refactor_mortgage_calculator_v2.Console" />
       <recent name="Console" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.ultimatejava.MyTube" />
     </key>
   </component>
   <component name="TaskManager">

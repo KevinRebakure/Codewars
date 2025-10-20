@@ -1,4 +1,4 @@
-package com.ultimatejava.MyTube;
+package com.ultimatejava.refactor_mytube;
 
 public class Video implements VideoInterface {
     private String fileName;

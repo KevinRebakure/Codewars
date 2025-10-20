@@ -4,12 +4,13 @@ import java.util.ArrayList;
 
 public class Main {
     static void main(String[] args) {
-        ArrayList<String> names = new ArrayList<>();
-        names.add("Kevin1");
-        names.add("Kevin2");
-        names.add("Kevin3");
-        names.add("Kevin4");
+        ArrayList<String> languages = new ArrayList<>();
+        languages.add("Kinyarwanda");
+        languages.add("English");
+        languages.add("French");
+        languages.add("Swahili");
 
-        System.out.println(names.get(1));
+        languages.forEach(System.out::println);
+        languages.forEach(language -> System.out.println(language));
     }
 }

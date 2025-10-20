@@ -3,6 +3,8 @@ package com.codewars;
 
 public class SetAlarm8kyu {
     static void main(String[] args) {
+        String refernce = "C:\\Users\\TheGym\\Documents\\Codewars\\JavaWars\\src\\main\\java\\com\\codewars\\SetAlarm8kyu.java";
+        System.out.println(refernce.replaceAll("\\\\", "/"));
 
     }
 

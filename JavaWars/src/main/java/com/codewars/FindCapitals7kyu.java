@@ -1,6 +1,7 @@
 //https://www.codewars.com/kata/539ee3b6757843632d00026b/train/java
 package com.codewars;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class FindCapitals7kyu {
@@ -23,5 +24,17 @@ public class FindCapitals7kyu {
         }
 
         return Arrays.copyOf(indices, track);
+    }
+
+    public static int[] capitalsImproved(String s){
+        ArrayList<Integer> list = new ArrayList<Integer>();
+
+        for (int i = 0; i < s.length(); i++) {
+            if (Character.isUpperCase(s.charAt(i))) {
+                list.add(i);
+            }
+        }
+
+        return list.stream().mapToInt(Integer::intValue).toArray();
     }
 }

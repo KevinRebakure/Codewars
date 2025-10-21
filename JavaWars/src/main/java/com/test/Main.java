@@ -1,16 +1,21 @@
 package com.test;
 
-import java.util.List;
+import java.util.Map;
 
 public class Main {
     static void main(String[] args) {
-        List<String> workDays = List.of("Monday", "Tuesday", "Wednesday", "Thursday", "Friday");
-        List<String> weekends = List.of("Saturday", "Sunday");
-        List<String> week = List.of();
+        Map<String, String> phoneBook = Map.of(
+                "Kevin Rebakure", "0791900630",
+                "Kevin", "0781888163",
+                "Bob", "+1-202-555-0118",
+                "James", "+1-202-555-0220",
+                "Katy", "+1-202-555-0175"
+        );
 
-        week.addAll(workDays);
-        week.addAll(weekends);
+        var phoneBookEntries = phoneBook.entrySet();
 
-        System.out.println(week);
+        for (Map.Entry<String, String> value: phoneBookEntries) {
+            System.out.println(value);
+        }
     }
 }

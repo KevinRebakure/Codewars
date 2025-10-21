@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/StrictSuperset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/CountValueOccurances.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Main.java" afterDir="false" />
     </list>
@@ -61,6 +61,7 @@
     "Application.ConvertNumberToString8kyu.executor": "Run",
     "Application.ConvertNumbersToDays.executor": "Run",
     "Application.ConvertingAndPrintingDoubleValuesAsIntegers.executor": "Run",
+    "Application.CountValueOccurances.executor": "Run",
     "Application.CountingSheep.executor": "Run",
     "Application.DoubledCharacters.executor": "Run",
     "Application.EvenOrOdd8kyu.executor": "Run",
@@ -102,7 +103,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>

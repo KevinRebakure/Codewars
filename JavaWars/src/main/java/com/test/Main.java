@@ -1,12 +1,11 @@
 package com.test;
 
-import java.util.ArrayList;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
 public class Main {
     static void main(String[] args) {
-        int number = 990;
-        boolean result = number > 1000 || number % 10 == 0;
+        SortedSet<String> names = new TreeSet<>();
 
-        System.out.println(result);
     }
 }

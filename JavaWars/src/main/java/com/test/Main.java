@@ -1,21 +1,28 @@
 package com.test;
 
-import java.util.Map;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
 
 public class Main {
     static void main(String[] args) {
-        Map<String, String> phoneBook = Map.of(
-                "Kevin Rebakure", "0791900630",
-                "Kevin", "0781888163",
-                "Bob", "+1-202-555-0118",
-                "James", "+1-202-555-0220",
-                "Katy", "+1-202-555-0175"
-        );
+        Set<Integer> numbers = new HashSet<>();
 
-        var phoneBookEntries = phoneBook.entrySet();
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+        numbers.add(4);
+        numbers.add(5);
 
-        for (Map.Entry<String, String> value: phoneBookEntries) {
-            System.out.println(value);
+        Iterator<Integer> iterator = numbers.iterator();
+
+        while (iterator.hasNext()) {
+            int current = iterator.next();
+            if (current < 4) {
+                iterator.remove();
+            }
         }
+
+        System.out.println(numbers);
     }
 }

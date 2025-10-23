@@ -1,28 +1,20 @@
 package com.test;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class Main {
     static void main(String[] args) {
-        Set<Integer> numbers = new HashSet<>();
-
-        numbers.add(1);
-        numbers.add(2);
-        numbers.add(3);
-        numbers.add(4);
-        numbers.add(5);
-
-        Iterator<Integer> iterator = numbers.iterator();
-
-        while (iterator.hasNext()) {
-            int current = iterator.next();
-            if (current < 4) {
-                iterator.remove();
-            }
+        try {
+            System.out.println(readFileAsString("src/main/java/com/test/Example.java"));
+        } catch (IOException e) {
+            System.out.println("File not found!");
         }
+    }
 
-        System.out.println(numbers);
+    public static String readFileAsString(String filePath) throws IOException {
+        String file = new String(Files.readAllBytes(Paths.get(filePath)));
+        return file;
     }
 }

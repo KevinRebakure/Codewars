@@ -10,11 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/SumOfNumbersInAFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/assets/dataset_91033.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/FindGreatestNumberInAFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/assets/dataset_91007.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +112,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TheGym\Documents\Codewars\JavaWars\src\main\java\com\hyperskill\exercises\assets" />
+    </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="com.ultimatejava.refactor_mortgage_calculator_v2.MortgageReport" />
       <recent name="com.ultimatejava.refactor_mortgage_calculator_v2.MortgageCalculator" />

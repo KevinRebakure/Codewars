@@ -10,9 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/FindGreatestNumberInAFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/assets/dataset_91007.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/FindGreatestNumberInAFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/FindGreatestNumberInAFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +72,7 @@
     "Application.FakeBinary8kyu.executor": "Run",
     "Application.FindAllMondays.executor": "Debug",
     "Application.FindCapitals7kyu.executor": "Run",
+    "Application.FindGreatestNumberInAFile.executor": "Run",
     "Application.FindNeedle8kyu.executor": "Run",
     "Application.FindmaxByIterator.executor": "Run",
     "Application.FizzBuzz.executor": "Run",

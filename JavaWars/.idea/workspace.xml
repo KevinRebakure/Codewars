@@ -10,10 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/FindGreatestNumberInAFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/FindGreatestNumberInAFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/PastryPackagingOptimization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +60,7 @@
     "Application.ConvertNumberToString8kyu.executor": "Run",
     "Application.ConvertNumbersToDays.executor": "Run",
     "Application.ConvertingAndPrintingDoubleValuesAsIntegers.executor": "Run",
+    "Application.CorrectGenericProgram.executor": "Run",
     "Application.CountValueOccurances.executor": "Run",
     "Application.CountingSheep.executor": "Run",
     "Application.DoubledCharacters.executor": "Run",

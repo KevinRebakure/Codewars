@@ -4,11 +4,11 @@ import java.util.List;
 
 class Main{
     static void main(String[] args) {
-        List<String> companies = List.of(
-                "Google", "Amazon", "Samsung",
-                "GOOGLE", "amazon", "Oracle"
-        );
-
-        companies.stream().map(String::toUpperCase).distinct().forEach(System.out::println);
+        List<String> names = List.of("Patrick Ross", "Kelly Wood", "James Moore", "Janice Coleman", "Mary Carter");
+        long something= names.stream()
+                .filter(name -> name.length() < 12)
+                .filter(name -> name.startsWith("J"))
+                .count();
+        System.out.println(something);
     }
 }

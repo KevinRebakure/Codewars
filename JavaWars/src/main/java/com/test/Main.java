@@ -2,9 +2,12 @@ package com.test;
 
 import java.util.stream.Stream;
 
-class Main{
+class Main {
     static void main(String[] args) {
-        long result = Stream.of(1, 2, 3, 4, 5).reduce(1, (x, y) -> x * y);
-        System.out.println(result);
+        Stream.iterate(1, i -> i + 2)
+                .skip(5)
+                .limit(5)
+                .forEach(n -> System.out.print(n + " "));
+
     }
 }

@@ -10,8 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/SortingAndSkippingNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +94,7 @@
     "Application.SmashSentence.executor": "Run",
     "Application.SortArrayByStringLength7kyu.executor": "Run",
     "Application.SortingAbsoluteValues.executor": "Run",
+    "Application.SortingAndSkippingNumbers.executor": "Run",
     "Application.SortingDigitsOfAnIntegerInAscendingOrder.executor": "Run",
     "Application.SumOfDivisors.executor": "Run",
     "Application.SumOfNumbersInAFile.executor": "Run",

@@ -10,9 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="bus tour">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/SortingAbsoluteValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyperskill/exercises/RangeQuadraticSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +85,7 @@
     "Application.MortgageCalculator.executor": "Run",
     "Application.PrintDatesWithAnOffset.executor": "Run",
     "Application.PrintElementsOfaStream.executor": "Run",
+    "Application.RangeQuadraticSum.executor": "Run",
     "Application.ReferenceType.executor": "Run",
     "Application.RemoveAnchorFromURL.executor": "Run",
     "Application.RemoveStringSpaces.executor": "Run",
@@ -93,6 +93,7 @@
     "Application.SmallestIntegerInArray8kyu.executor": "Run",
     "Application.SmashSentence.executor": "Run",
     "Application.SortArrayByStringLength7kyu.executor": "Run",
+    "Application.SortingAbsoluteValues.executor": "Run",
     "Application.SortingDigitsOfAnIntegerInAscendingOrder.executor": "Run",
     "Application.SumOfNumbersInAFile.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",

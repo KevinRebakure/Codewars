@@ -9,14 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="feat: own memento pattern implementation. How I'd do it.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/pattern/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/pattern/DocumentState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/pattern/History.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/pattern/Main.java" afterDir="false" />
+    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="feat: memento exercise">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/state/Bicycling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/state/DirectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/state/Driving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/state/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/state/Transit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/state/TravelMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/state/TravelModeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/state/Walking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/own/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/own/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +120,7 @@
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/TheGym/Documents/Codewars/JavaWars/src/main/java",
-    "last_opened_file_path": "C:/Users/TheGym/Documents/Codewars/JavaWars",
+    "last_opened_file_path": "C:/Users/TheGym/Documents/Codewars/JavaWars/src/main/java/com/ultimate_design_patterns/behavioral/state",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -135,6 +137,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TheGym\Documents\Codewars\JavaWars\src\main\java\com\ultimate_design_patterns\behavioral\state" />
       <recent name="C:\Users\TheGym\Documents\Codewars\JavaWars\src\main\java\com\hyperskill\exercises\assets" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -229,7 +232,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762674918959</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: memento exercise">
+      <option name="closed" value="true" />
+      <created>1762678205288</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1762678205288</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: memento exercise">
+      <option name="closed" value="true" />
+      <created>1762678253239</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762678253239</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +274,8 @@
     <MESSAGE value="8 kyu&#10;Counting sheep..." />
     <MESSAGE value="bus tour" />
     <MESSAGE value="feat: own memento pattern implementation. How I'd do it." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: own memento pattern implementation. How I'd do it." />
+    <MESSAGE value="feat: memento exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: memento exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

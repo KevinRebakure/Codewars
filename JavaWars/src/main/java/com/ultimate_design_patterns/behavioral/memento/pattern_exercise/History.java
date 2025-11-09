@@ -1,4 +1,4 @@
-package com.ultimate_design_patterns.behavioral.memento.pattern;
+package com.ultimate_design_patterns.behavioral.memento.pattern_exercise;
 
 import java.util.ArrayList;
 import java.util.List;

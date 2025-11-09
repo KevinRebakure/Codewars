@@ -1,4 +1,4 @@
-package com.ultimate_design_patterns.behavioral.memento.pattern;
+package com.ultimate_design_patterns.behavioral.memento.pattern_exercise;
 
 public class Main {
     static void main(String[] args) {

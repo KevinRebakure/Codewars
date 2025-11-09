@@ -3,6 +3,10 @@ package com.ultimate_design_patterns.behavioral.state;
 public class DirectionService {
     private TravelModeInterface travelMode;
 
+    public DirectionService(TravelModeInterface  travelMode) {
+        this.travelMode = travelMode;
+    }
+
     public Object getEta() {
         return travelMode.getEta();
     }

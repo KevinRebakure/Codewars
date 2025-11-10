@@ -15,7 +15,7 @@ public class ProductCollection {
         return new ProductCollectionIterator();
     }
 
-    public class ProductCollectionIterator implements ProductIterator {
+    private class ProductCollectionIterator implements ProductIterator {
 
         @Override
         public boolean hasNext() {

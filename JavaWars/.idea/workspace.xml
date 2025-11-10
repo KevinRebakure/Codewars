@@ -10,13 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/iterator/exercise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/iterator/exercise/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/iterator/exercise/ProductCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/iterator/exercise/ProductIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/state/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/state/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -162,6 +156,7 @@
       <workItem from="1762691028925" duration="163000" />
       <workItem from="1762780944404" duration="3615000" />
       <workItem from="1762784633962" duration="11000" />
+      <workItem from="1762785452607" duration="3513000" />
     </task>
     <task id="LOCAL-00001" summary="8 kyu Even or Odd">
       <option name="closed" value="true" />

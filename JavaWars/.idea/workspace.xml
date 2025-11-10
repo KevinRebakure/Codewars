@@ -9,17 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/strategy/exercise/AESEncryption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/strategy/exercise/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/strategy/exercise/DESEncryption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/strategy/exercise/Encryption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/strategy/exercise/Main.java" afterDir="false" />
+    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="exercise: strategy pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/template_method/exercise/CustomWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/template_method/exercise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/template_method/exercise/Window.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/pattern_exercise/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/exercise/Document.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/pattern_exercise/DocumentState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/exercise/DocumentState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/pattern_exercise/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/exercise/History.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/pattern_exercise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/exercise/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,84 +54,84 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AbbreviateaTwoWordName.executor": "Run",
-    "Application.AnagramDetection7kyu.executor": "Run",
-    "Application.ArrayListExercise.executor": "Run",
-    "Application.ArrayOfLongs.executor": "Run",
-    "Application.BasicMathematicalOperations8kyu.executor": "Run",
-    "Application.BusTour.executor": "Run",
-    "Application.CompressionAlgorithm.executor": "Run",
-    "Application.ConvertNumberToString8kyu.executor": "Run",
-    "Application.ConvertNumbersToDays.executor": "Run",
-    "Application.ConvertingAndPrintingDoubleValuesAsIntegers.executor": "Run",
-    "Application.CorrectGenericProgram.executor": "Run",
-    "Application.CountPasswords.executor": "Run",
-    "Application.CountValueOccurances.executor": "Run",
-    "Application.CountingSheep.executor": "Run",
-    "Application.DoubledCharacters.executor": "Run",
-    "Application.EvenOrOdd8kyu.executor": "Run",
-    "Application.Example.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.Factorial7kyu.executor": "Run",
-    "Application.FakeBinary8kyu.executor": "Run",
-    "Application.FindAllMondays.executor": "Debug",
-    "Application.FindCapitals7kyu.executor": "Run",
-    "Application.FindGreatestNumberInAFile.executor": "Run",
-    "Application.FindNeedle8kyu.executor": "Run",
-    "Application.FindmaxByIterator.executor": "Run",
-    "Application.FizzBuzz.executor": "Run",
-    "Application.GrasshopperSummation8kyu.executor": "Run",
-    "Application.HarryPotterHouses.executor": "Run",
-    "Application.IntegerBarrier.executor": "Run",
-    "Application.LongestWordInSentence.executor": "Run",
-    "Application.LostWithoutaMap8kyu.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MortgageCalculator.executor": "Run",
-    "Application.PrintDatesWithAnOffset.executor": "Run",
-    "Application.PrintElementsOfaStream.executor": "Run",
-    "Application.RangeQuadraticSum.executor": "Run",
-    "Application.ReferenceType.executor": "Run",
-    "Application.RemoveAnchorFromURL.executor": "Run",
-    "Application.RemoveStringSpaces.executor": "Run",
-    "Application.ReturningStrings8kyu.executor": "Run",
-    "Application.SmallestIntegerInArray8kyu.executor": "Run",
-    "Application.SmashSentence.executor": "Run",
-    "Application.SortArrayByStringLength7kyu.executor": "Run",
-    "Application.SortingAbsoluteValues.executor": "Run",
-    "Application.SortingAndSkippingNumbers.executor": "Run",
-    "Application.SortingDigitsOfAnIntegerInAscendingOrder.executor": "Run",
-    "Application.SumOfDivisors.executor": "Run",
-    "Application.SumOfNumbersInAFile.executor": "Run",
-    "Application.SumWithoutHighestAndLowestNumber8kyu.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/TheGym/Documents/Codewars/JavaWars/src/main/java",
-    "last_opened_file_path": "C:/Users/TheGym/Documents/Codewars/JavaWars",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/TheGym/Documents/Codewars/JavaWars/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editing.templates",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbbreviateaTwoWordName.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnagramDetection7kyu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListExercise.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayOfLongs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicMathematicalOperations8kyu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BusTour.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompressionAlgorithm.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConvertNumberToString8kyu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConvertNumbersToDays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConvertingAndPrintingDoubleValuesAsIntegers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CorrectGenericProgram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountPasswords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountValueOccurances.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountingSheep.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoubledCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvenOrOdd8kyu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial7kyu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FakeBinary8kyu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindAllMondays.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FindCapitals7kyu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindGreatestNumberInAFile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindNeedle8kyu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindmaxByIterator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FizzBuzz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GrasshopperSummation8kyu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HarryPotterHouses.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntegerBarrier.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestWordInSentence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LostWithoutaMap8kyu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MortgageCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintDatesWithAnOffset.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintElementsOfaStream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RangeQuadraticSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReferenceType.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveAnchorFromURL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveStringSpaces.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReturningStrings8kyu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmallestIntegerInArray8kyu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmashSentence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortArrayByStringLength7kyu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortingAbsoluteValues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortingAndSkippingNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortingDigitsOfAnIntegerInAscendingOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfDivisors.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfNumbersInAFile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumWithoutHighestAndLowestNumber8kyu.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/TheGym/Documents/Codewars/JavaWars/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TheGym/Documents/Codewars/JavaWars&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/TheGym/Documents/Codewars/JavaWars/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\TheGym\Documents\Codewars\JavaWars\src\main\java\com\ultimate_design_patterns\behavioral\state" />
@@ -153,6 +147,14 @@
       <recent name="com.ultimatejava.MyTube" />
     </key>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="" />
@@ -166,6 +168,7 @@
       <workItem from="1762780944404" duration="3615000" />
       <workItem from="1762784633962" duration="11000" />
       <workItem from="1762785452607" duration="3513000" />
+      <workItem from="1762804564196" duration="874000" />
     </task>
     <task id="LOCAL-00001" summary="8 kyu Even or Odd">
       <option name="closed" value="true" />
@@ -279,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762782084267</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="exercise: strategy pattern">
+      <option name="closed" value="true" />
+      <created>1762797396857</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1762797396857</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +320,8 @@
     <MESSAGE value="7 kyu Money, Money, Money" />
     <MESSAGE value="8 kyu Sum Mixed Array" />
     <MESSAGE value="7 kyu Small enough? - Beginner" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 kyu Small enough? - Beginner" />
+    <MESSAGE value="exercise: strategy pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise: strategy pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

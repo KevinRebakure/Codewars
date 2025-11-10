@@ -1,4 +1,4 @@
-package com.ultimate_design_patterns.behavioral.memento.pattern_exercise;
+package com.ultimate_design_patterns.behavioral.memento.exercise;
 
 public class Document {
     private String content;

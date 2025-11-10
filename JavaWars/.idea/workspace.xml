@@ -9,10 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="exercise: strategy pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/template_method/exercise/CustomWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/template_method/exercise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/template_method/exercise/Window.java" afterDir="false" />
+    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="exercise: template method pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/revise_01/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/revise_01/EditorHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/revise_01/EditorState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/memento/revise_01/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -168,7 +169,7 @@
       <workItem from="1762780944404" duration="3615000" />
       <workItem from="1762784633962" duration="11000" />
       <workItem from="1762785452607" duration="3513000" />
-      <workItem from="1762804564196" duration="874000" />
+      <workItem from="1762804564196" duration="2652000" />
     </task>
     <task id="LOCAL-00001" summary="8 kyu Even or Odd">
       <option name="closed" value="true" />
@@ -290,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762797396857</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="exercise: template method pattern">
+      <option name="closed" value="true" />
+      <created>1762805551862</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1762805551862</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +330,8 @@
     <MESSAGE value="8 kyu Sum Mixed Array" />
     <MESSAGE value="7 kyu Small enough? - Beginner" />
     <MESSAGE value="exercise: strategy pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise: strategy pattern" />
+    <MESSAGE value="exercise: template method pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise: template method pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

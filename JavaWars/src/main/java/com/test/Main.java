@@ -1,8 +1,12 @@
 package com.test;
 
+import java.math.BigDecimal;
+
 public class Main {
     static void main(String[] args) {
-        System.out.println("Kevin");
+        BigDecimal x = new BigDecimal(0.1);
+        BigDecimal y = new BigDecimal(0.2);
+        System.out.println(x.add(y).doubleValue());
     }
 }
 

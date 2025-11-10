@@ -19,6 +19,11 @@ public class Factorial7kyu {
 
             return range.stream().mapToInt(Integer::intValue).reduce(1, (a, b) -> a * b);
     }
+
+    public static int factorial2(int n){
+        if (n < 0 || n > 12) throw new IllegalArgumentException();
+        return IntStream.rangeClosed(1, n).reduce(1, (a, b) -> a * b);
+    }
 }
 
 // handle edge cases

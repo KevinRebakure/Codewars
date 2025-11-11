@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="7 kyu Don't give me five! simpler">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewars/ParseNiceIntFromCharProblem8kyu.java" afterDir="false" />
+    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="8 kyu Parse nice int from char problem easy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewars/ReverseLetter7kyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +88,7 @@
     "Application.LostWithoutaMap8kyu.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MortgageCalculator.executor": "Run",
+    "Application.ParseNiceIntFromCharProblem8kyu.executor": "Run",
     "Application.PrintDatesWithAnOffset.executor": "Run",
     "Application.PrintElementsOfaStream.executor": "Run",
     "Application.RangeQuadraticSum.executor": "Run",
@@ -94,6 +96,7 @@
     "Application.RemoveAnchorFromURL.executor": "Run",
     "Application.RemoveStringSpaces.executor": "Run",
     "Application.ReturningStrings8kyu.executor": "Run",
+    "Application.ReverseLetter7kyu.executor": "Run",
     "Application.SmallestIntegerInArray8kyu.executor": "Run",
     "Application.SmashSentence.executor": "Run",
     "Application.SortArrayByStringLength7kyu.executor": "Run",
@@ -167,7 +170,7 @@
       <workItem from="1762784633962" duration="11000" />
       <workItem from="1762785452607" duration="3513000" />
       <workItem from="1762804564196" duration="3619000" />
-      <workItem from="1762874705562" duration="1337000" />
+      <workItem from="1762874705562" duration="1946000" />
     </task>
     <task id="LOCAL-00001" summary="8 kyu Even or Odd">
       <option name="closed" value="true" />
@@ -329,7 +332,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762875766785</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="8 kyu Parse nice int from char problem">
+      <option name="closed" value="true" />
+      <created>1762876210382</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1762876210382</updated>
+    </task>
+    <task id="LOCAL-00022" summary="8 kyu Parse nice int from char problem easy">
+      <option name="closed" value="true" />
+      <created>1762876317861</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1762876317861</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +384,9 @@
     <MESSAGE value="8 kyu Grasshopper - Messi goals function" />
     <MESSAGE value="7 kyu Don't give me five!" />
     <MESSAGE value="7 kyu Don't give me five! simpler" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 kyu Don't give me five! simpler" />
+    <MESSAGE value="8 kyu Parse nice int from char problem" />
+    <MESSAGE value="8 kyu Parse nice int from char problem easy" />
+    <option name="LAST_COMMIT_MESSAGE" value="8 kyu Parse nice int from char problem easy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

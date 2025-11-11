@@ -4,6 +4,7 @@ package com.codewars;
 public class AbbreviateaTwoWordName8kyu {
     static void main(String[] args) {
         System.out.println(abbrevName("Kevin Rebakure"));
+
     }
     public static String abbrevName(String name) {
         String firstName = name.split(" ")[0].toUpperCase();

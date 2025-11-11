@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="7 kyu Simple Fun #176: Reverse Letter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewars/TheFeastofManyBeasts8kyu.java" afterDir="false" />
-    </list>
+    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="8 kyu The Feast of Many Beasts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,6 +103,7 @@
     "Application.SumOfDivisors.executor": "Run",
     "Application.SumOfNumbersInAFile.executor": "Run",
     "Application.SumWithoutHighestAndLowestNumber8kyu.executor": "Run",
+    "Application.TheFeastofManyBeasts8kyu.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -169,7 +168,7 @@
       <workItem from="1762784633962" duration="11000" />
       <workItem from="1762785452607" duration="3513000" />
       <workItem from="1762804564196" duration="3619000" />
-      <workItem from="1762874705562" duration="2289000" />
+      <workItem from="1762874705562" duration="2591000" />
     </task>
     <task id="LOCAL-00001" summary="8 kyu Even or Odd">
       <option name="closed" value="true" />
@@ -355,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762876701689</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="8 kyu The Feast of Many Beasts">
+      <option name="closed" value="true" />
+      <created>1762877302935</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1762877302935</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +401,8 @@
     <MESSAGE value="8 kyu Parse nice int from char problem" />
     <MESSAGE value="8 kyu Parse nice int from char problem easy" />
     <MESSAGE value="7 kyu Simple Fun #176: Reverse Letter" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 kyu Simple Fun #176: Reverse Letter" />
+    <MESSAGE value="8 kyu The Feast of Many Beasts" />
+    <option name="LAST_COMMIT_MESSAGE" value="8 kyu The Feast of Many Beasts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

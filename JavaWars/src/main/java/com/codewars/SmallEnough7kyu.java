@@ -3,8 +3,6 @@ package com.codewars;
 
 import java.util.Arrays;
 
-public class SmallEnough {
-}
 
 class Kata {
     public static boolean smallEnough(int[] a, int limit) {

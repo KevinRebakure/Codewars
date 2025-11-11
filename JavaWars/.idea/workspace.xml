@@ -9,10 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="8 kyu Grasshopper - Messi goals function">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewars/DontGiveMeFive7kyu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/MessiGoalsFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/MessiGoalsFunction8kyu.java" afterDir="false" />
+    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="7 kyu Don't give me five!">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/DontGiveMeFive7kyu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/DontGiveMeFive7kyu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codewars/SmallEnough.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewars/SmallEnough7kyu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +168,7 @@
       <workItem from="1762784633962" duration="11000" />
       <workItem from="1762785452607" duration="3513000" />
       <workItem from="1762804564196" duration="3619000" />
-      <workItem from="1762874705562" duration="663000" />
+      <workItem from="1762874705562" duration="986000" />
     </task>
     <task id="LOCAL-00001" summary="8 kyu Even or Odd">
       <option name="closed" value="true" />
@@ -316,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762874803419</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="7 kyu Don't give me five!">
+      <option name="closed" value="true" />
+      <created>1762875636456</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1762875636457</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +356,8 @@
     <MESSAGE value="exercise: template method pattern" />
     <MESSAGE value="revise: memento pattern" />
     <MESSAGE value="8 kyu Grasshopper - Messi goals function" />
-    <option name="LAST_COMMIT_MESSAGE" value="8 kyu Grasshopper - Messi goals function" />
+    <MESSAGE value="7 kyu Don't give me five!" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 kyu Don't give me five!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

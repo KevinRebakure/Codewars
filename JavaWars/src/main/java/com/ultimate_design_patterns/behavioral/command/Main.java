@@ -5,7 +5,7 @@ public class Main {
         var history = new History();
         var videoEditor = new VideoEditor();
         var removeTextCommand = new RemoveTextCommand(videoEditor);
-        var addBackRemovedTextCommand = new AddBackRemovedText(removeTextCommand);
+        var addBackRemovedTextCommand = new UndoCommand(history);
 
         videoEditor.setText("First video");
         removeTextCommand.execute();

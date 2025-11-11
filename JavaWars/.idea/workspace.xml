@@ -9,13 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="exercise: command pattern continue to work on it">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/observer/exercise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/observer/exercise/StatusBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/observer/exercise/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/observer/exercise/StockDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/observer/exercise/StockListView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/observer/exercise/StockPriceObserver.java" afterDir="false" />
+    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="exercise: observer pattern (bad)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/mediator/exercise/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/mediator/exercise/CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/mediator/exercise/EventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/mediator/exercise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/mediator/exercise/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ultimate_design_patterns/behavioral/mediator/exercise/UIControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -125,7 +125,7 @@
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/TheGym/Documents/Codewars/JavaWars/src/main/java",
-    "last_opened_file_path": "C:/Users/TheGym/Documents/Codewars/JavaWars/src/main/java/com/ultimate_design_patterns/behavioral/observer/exercise",
+    "last_opened_file_path": "C:/Users/TheGym/Documents/Codewars/JavaWars/src/main/java/com/ultimate_design_patterns/behavioral/mediator/exercise",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -142,6 +142,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TheGym\Documents\Codewars\JavaWars\src\main\java\com\ultimate_design_patterns\behavioral\mediator\exercise" />
       <recent name="C:\Users\TheGym\Documents\Codewars\JavaWars\src\main\java\com\ultimate_design_patterns\behavioral\observer\exercise" />
       <recent name="C:\Users\TheGym\Documents\Codewars\JavaWars\src\main\java\com\ultimate_design_patterns\behavioral\state" />
       <recent name="C:\Users\TheGym\Documents\Codewars\JavaWars\src\main\java\com\hyperskill\exercises\assets" />
@@ -179,7 +180,7 @@
       <workItem from="1762785452607" duration="3513000" />
       <workItem from="1762804564196" duration="3619000" />
       <workItem from="1762874705562" duration="4485000" />
-      <workItem from="1762891237143" duration="3347000" />
+      <workItem from="1762891237143" duration="4775000" />
     </task>
     <task id="LOCAL-00001" summary="8 kyu Even or Odd">
       <option name="closed" value="true" />
@@ -397,7 +398,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762892474719</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="exercise: observer pattern (bad)">
+      <option name="closed" value="true" />
+      <created>1762894874130</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1762894874130</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,7 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8 kyu Even or Odd" />
     <MESSAGE value="8 kyu&#10;Convert a Number to a String!" />
     <MESSAGE value="8 kyu&#10;Find the smallest integer in the array" />
     <MESSAGE value="8 kyu&#10;Grasshopper - Summation" />
@@ -440,7 +448,8 @@
     <MESSAGE value="7 kyu Find the middle element" />
     <MESSAGE value="exercise: command pattern" />
     <MESSAGE value="exercise: command pattern continue to work on it" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise: command pattern continue to work on it" />
+    <MESSAGE value="exercise: observer pattern (bad)" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise: observer pattern (bad)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

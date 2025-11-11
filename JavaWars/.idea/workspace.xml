@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="8 kyu Parse nice int from char problem easy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewars/ReverseLetter7kyu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0e17270b-3096-42ac-a347-2d12e227da1a" name="Changes" comment="7 kyu Simple Fun #176: Reverse Letter">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewars/TheFeastofManyBeasts8kyu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +169,7 @@
       <workItem from="1762784633962" duration="11000" />
       <workItem from="1762785452607" duration="3513000" />
       <workItem from="1762804564196" duration="3619000" />
-      <workItem from="1762874705562" duration="1946000" />
+      <workItem from="1762874705562" duration="2289000" />
     </task>
     <task id="LOCAL-00001" summary="8 kyu Even or Odd">
       <option name="closed" value="true" />
@@ -348,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762876317861</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="7 kyu Simple Fun #176: Reverse Letter">
+      <option name="closed" value="true" />
+      <created>1762876701689</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1762876701689</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +393,8 @@
     <MESSAGE value="7 kyu Don't give me five! simpler" />
     <MESSAGE value="8 kyu Parse nice int from char problem" />
     <MESSAGE value="8 kyu Parse nice int from char problem easy" />
-    <option name="LAST_COMMIT_MESSAGE" value="8 kyu Parse nice int from char problem easy" />
+    <MESSAGE value="7 kyu Simple Fun #176: Reverse Letter" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 kyu Simple Fun #176: Reverse Letter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

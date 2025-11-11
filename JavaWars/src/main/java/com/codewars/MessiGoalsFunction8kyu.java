@@ -1,7 +1,7 @@
 //https://www.codewars.com/kata/55f73be6e12baaa5900000d4/train/java
 package com.codewars;
 
-public class MessiGoalsFunction {
+public class MessiGoalsFunction8kyu {
     static void main(String[] args) {
 
     }

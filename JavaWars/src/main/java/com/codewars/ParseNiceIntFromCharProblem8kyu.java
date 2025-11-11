@@ -11,4 +11,11 @@ public class ParseNiceIntFromCharProblem8kyu {
     static int howOld(final String herOld) {
         return Integer.parseInt(Arrays.stream(herOld.split(" ")).toList().getFirst());
     }
+
+    static int howOldEasy(final String herOld) {
+
+        String[] s = herOld.split(" ");
+        return Integer.valueOf(s[0]);
+
+    }
 }
